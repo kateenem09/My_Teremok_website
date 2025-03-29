@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title>
+        Акции в Теремке
+    </title>
+    <meta name="description" content="Блочная верстка HTMLS">
+    <style>
+    * {box-sizing: border-box;}
+    #header h1 {
+        font-size: 44px;
+        text-transform: uppercase;
+        font-weight: blod;
+        padding: 30px 30px 30px 10px;
+        clear: both;
+        text-align: center;
+        position: absolute;
+		top: 0;
+		right: 0;
+		height:239px;
+    }
+    #nav {
+        background-color: rgb(120, 141, 235)
+        border-top : 1px soild #888
+        border-bottom: 1px soild #888
+    }
+    #nav ul:after {
+        content: " ";
+        display:table;
+        clear:both;
+    }
+    #nav li{
+        float: left;
+        list-style: none;
+    }
+    #nav a {
+        display: block;
+        color: black;
+        padding: 10px 25px;
+        text-decoration: none;
+        border-right: 3px solid rgb(184, 7, 13);
+        font-size: xx-large;
+    }
+    #nav li:last-child a {
+        border-child: none;
+    }
+	#pic {
+    float: left;
+   }
+   #text {
+    margin-left: 110px;
+   }
+    #wrapper {
+            background-color: wihte;
+    }
+    #sidebar-left {
+        padding: 10px 10px 10px 10px;
+        float:left;
+        width:25%;
+    }
+    #sidebar-right{
+        padding: 10px 10px 10px 10px;
+        float:right;
+        width: 25%;
+    }
+    #main {
+        padding: 10px 10px 10px 10px;
+        margin-left:27%;
+        margin-right:27%;
+        height:1500px;
+        background-color:  wihte;
+       /*float: left;*/
+    }
+    #footer {
+        padding: 15px 50px 15px 50px;
+        background-color: rgb(184, 7, 13);
+        clear: both;
+        padding: 15px 50px 15px 50px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+<div id="header">
+    <h1 style="right: 0; top: 0; width: 1000px">Акции месяца!</h1>
+	<img src="pictures/picture1.jpg" width="240" height="150"> 
+</div>
+<div id="nav">
+    <ul>
+       <li><a href="index.html">Главная страница</a></li>
+        <li><a href="about.html">О компании</a></li>
+    </ul>
+</div>
+<div id="wrapper">
+    <div id="sidebar-left">
+	 <p>Присоединяйся к нашей команде:</p>
+        <ul>
+            <li><a href="work.html">Работа в Теремке</a></li>
+            <li>Заполни <a href="https://rabota.teremok.ru/faq/">анкету</a> и мы ответим на все твои вопросы!</li>    
+        </ul>
+    </div>
+    <div id="sidebar-right">
+        <p>Постное меню в Теремке!</p>
+		<td style="width: 25%">
+		<iframe src="https://teremok.ru/events/postnoe-menyu-v-teremke-sytno-i-vkusno/" height="500">  </iframe>
+		</td>
+    </div>
+    <div id="main">
+		<h1>ОБЕДЫ В ТЕРЕМКЕ ВЕСЬ ДЕНЬ!</h1>
+        <p align="center">С 11.11.2022 ПО 31.12.2024</p>
+		<p align="center"><img src="pictures/picture3.jpg" width="500" height="300"></p>
+		<p align="left">В акции участвуют все рестораны г. Санкт-Петербурга и ЛО, кроме ресторана в аэропорту Пулково. Акция не действует в уличных киосках. Подробнее о доставке обедов домой и в офис можно узнать на сайтах операторов доставки Яндекс.Еда и Деливери Клаб.</p>
+		<h2>ОБЕД «ДОМАШНИЙ»</h2>
+		<div id="pic">
+		<img src="pictures/picture4.png" width="350" height="250">
+		</div>
+		<div id="text">
+			<p align="left">суп/салат на выбор:</p>
+			<li>Лапша с фрикадельками</li>
+			<li>Грибной суп с ЧИПАМИ</li>
+			<p align="left">+ блин на выбор</p>
+			<li>Блин со сгущенным молоком</li>
+			<li>Блин со сметаной</li>
+			<li>Блинчик с картошкой и грибами</li>
+			<p align="left">+ напиток на выбор:</p>
+			<li>Чай черный/зеленый 0,2</li>
+			<li>Квас 0,3</li>
+         </div>
+		<h2>ОБЕД «ЭКОНОМНЫЙ»</h2>
+		<div id="pic">
+		<img src="pictures/picture5.png" width="350" height="250">
+		</div>
+		<div id="text">
+			<p align="left">суп/салат на выбор:</p>
+			<li>Суп гороховый с копченостями</li>
+			<li>Грибной суп с ЧИПАМИ</li>
+			<p align="left">+ блин на выбор</p>
+			<li>Блин с сыром и ветчиной</li>
+			<li>Блин со клубникой</li>
+			<li>Блинчик с капустой и яйцом</li>
+			<p align="left">+ напиток на выбор:</p>
+			<li>Чай черный/зеленый 0,2</li>
+			<li>Квас 0,3</li>
+         </div>
+		 <h2>ОБЕД «РАЗНООБРАЗНЫЙ»</h2>
+		<div id="pic">
+		<img src="pictures/picture6.png" width="350" height="250">
+		</div>
+		<div id="text">
+			<p align="left">суп/салат на выбор:</p>
+			<li>Сырный крем-суп ЧИПЫ</li>
+			<li>Салат «Оливье»</li>
+			<p align="left">+ блюдо на выбор:</p>
+			<li>Блинчик с картошкой и грибами</li>
+			<li>Блин со сгущенным молоком</li>
+			<li>Винегрет постный</li>
+			<p align="left">+ напиток на выбор:</p>
+			<li>Кофе американо 0,2</li>
+			<li>Квас 0,3</li>
+         </div>
+    </div>
+    
+ </div>
+ <div id="footer">Контактная информация: почта - SPB@TEREMOK.RU</div>
+</body>
+</html>
+
